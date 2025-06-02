@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aero Aviation - Terms of Service</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font for a sleek look */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000; /* Black background */
+            color: #fff; /* White text */
+        }
+        /* Custom scrollbar for a sleek look */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1a1a1a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #4a4a4a;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #6a6a6a;
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <header class="bg-black text-white py-4 px-6 md:px-12 shadow-lg rounded-b-lg">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-3xl font-bold tracking-wider rounded-md">Aero Aviation</a>
+            <div class="hidden md:flex space-x-8">
+                <a href="index.html" class="hover:text-gray-400 transition-colors duration-300 rounded-md py-2 px-3">Home</a>
+                <a href="about.html" class="hover:text-gray-400 transition-colors duration-300 rounded-md py-2 px-3">About Us</a>
+                <a href="services.html" class="hover:text-gray-400 transition-colors duration-300 rounded-md py-2 px-3">Services</a>
+                <a href="contact.html" class="hover:text-gray-400 transition-colors duration-300 rounded-md py-2 px-3">Contact</a>
+                <a href="request-quote.html" class="hover:text-gray-400 transition-colors duration-300 rounded-md py-2 px-3">Request a Quote</a>
+                <a href="terms.html" class="hover:text-gray-400 transition-colors duration-300 rounded-md py-2 px-3">Terms of Service</a>
+                <a href="privacy.html" class="hover:text-gray-400 transition-colors duration-300 rounded-md py-2 px-3">Privacy Policy</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden focus:outline-none">
+                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden fixed inset-0 bg-black bg-opacity-95 z-50 flex flex-col items-center justify-center space-y-8">
+            <button id="close-mobile-menu" class="absolute top-6 right-6 focus:outline-none">
+                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+            </button>
+            <a href="index.html" class="text-4xl font-light hover:text-gray-400 transition-colors duration-300 rounded-md py-2 px-3">Home</a>
+            <a href="about.html" class="text-4xl font-light hover:text-gray-400 transition-colors duration-300 rounded-md py-2 px-3">About Us</a>
+            <a href="services.html" class="text-4xl font-light hover:text-gray-400 transition-colors duration-300 rounded-md py-2 px-3">Services</a>
+            <a href="contact.html" class="text-4xl font-light hover:text-gray-400 transition-colors duration-300 rounded-md py-2 px-3">Contact</a>
+            <a href="request-quote.html" class="text-4xl font-light hover:text-gray-400 transition-colors duration-300 rounded-md py-2 px-3">Request a Quote</a>
+            <a href="terms.html" class="text-4xl font-light hover:text-gray-400 transition-colors duration-300 rounded-md py-2 px-3">Terms of Service</a>
+            <a href="privacy.html" class="text-4xl font-light hover:text-gray-400 transition-colors duration-300 rounded-md py-2 px-3">Privacy Policy</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="terms-content" class="py-20 px-6 md:px-12 bg-gray-900 text-white rounded-xl mx-auto my-12 max-w-6xl">
+            <div class="container mx-auto">
+                <h2 class="text-4xl md:text-5xl font-bold text-center mb-12">Terms of Service</h2>
+                <div class="prose prose-invert max-w-none text-lg leading-relaxed">
+                    <h3 class="text-2xl font-semibold mb-4">Aviation Operations and Carrier Liability</h3>
+                    <p class="mb-4">
+                        Client acknowledges and agrees that Aero Aviation LLC ("Broker") acts solely as an air charter broker and is not a direct air carrier or aircraft operator. All flights arranged by Broker for Client will be operated by a third-party, FAA-certified (or equivalent international regulatory body) direct air carrier ("Operating Carrier"). The Operating Carrier will have exclusive operational control of the aircraft and the ultimate authority and responsibility for all aspects of flight safety and operations.
+                    </p>
+                    <p class="mb-4">
+                        Client understands and agrees that all flights are subject to the Operating Carrier's own terms and conditions of carriage, rules, regulations, and insurance policies, which may include specific limitations of liability for passengers, baggage, and cargo. Broker will use reasonable efforts to provide Client with access to, or information regarding, the Operating Carrier's terms upon request or at the time of booking confirmation.
+                    </p>
+                    <p class="mb-4">
+                        Client acknowledges that air charter operations are subject to inherent variables including, but not limited to, adverse weather conditions, air traffic control restrictions, mechanical issues, crew duty limitations, unforeseen maintenance, airport closures, governmental actions, and other force majeure events. Broker and the Operating Carrier are not liable for any delays, diversions, or cancellations of flights arising from such circumstances. In such events, Broker will use commercially reasonable efforts to assist Client in finding alternative arrangements, but any additional costs incurred (e.g., rebooking fees, ground transportation, accommodation) are the Client's responsibility, unless explicitly covered by separate agreement or the Operating Carrier's policies.
+                    </p>
+                    <p class="mb-4">
+                        While Broker will endeavor to arrange the specific aircraft type and schedule requested, Client acknowledges that due to operational contingencies, the aircraft, crew, or flight schedule may be subject to change without prior notice by the Operating Carrier. Broker reserves the right to substitute an equivalent or superior aircraft type if necessary, at no additional cost to the Client, or offer a full refund for the affected segment if no suitable alternative is available.
+                    </p>
+                    <p class="mb-4">
+                        The Operating Carrier's pilot-in-command has final authority regarding the carriage of any passenger, baggage, or cargo, and may refuse service to any passenger who, in their reasonable judgment, is unruly, intoxicated, poses a safety risk, or fails to comply with lawful instructions. In such an event, Broker is not liable for any refund, compensation, or alternative arrangements, and Client is responsible for any costs incurred due to the passenger's removal.
+                    </p>
+                    <p class="mb-4">
+                        Client is solely responsible for ensuring all passengers possess valid and necessary travel documentation (e.g., passports, visas, health certificates) required for their itinerary. Broker and the Operating Carrier are not liable for any flight disruption, denied boarding, or additional costs incurred due to a passenger's lack of proper documentation.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-black text-gray-400 py-8 px-6 md:px-12 text-center rounded-t-lg mt-12">
+        <div class="container mx-auto">
+            <p>&copy; 2025 Aero Aviation. All rights reserved.</p>
+            <div class="flex justify-center space-x-6 mt-4">
+                <a href="terms.html" class="hover:text-white transition-colors duration-300">Terms of Service</a>
+                <a href="privacy.html" class="hover:text-white transition-colors duration-300">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for mobile menu toggle (Consistent across all pages)
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const closeMobileMenu = document.getElementById('close-mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.remove('hidden');
+        });
+
+        closeMobileMenu.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+        });
+
+        // Close mobile menu when a link is clicked (Consistent across all pages)
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
